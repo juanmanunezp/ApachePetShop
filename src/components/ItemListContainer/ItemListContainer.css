@@ -1,0 +1,15 @@
+.item-list-container {
+    height: 80vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+    background-color: #94949446;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  h1 {
+    font-size: 3rem; 
+    color: #008866;
+  }
