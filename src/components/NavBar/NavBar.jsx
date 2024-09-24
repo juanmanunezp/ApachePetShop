@@ -8,7 +8,7 @@ const NavBar = () => {
     <nav className="nav-wrapper white">
       <div className="container">
         <a href="/" className="brand-logo center">
-          <img src="../src/assets/logo.png" alt="logo" width={62} />
+          <img src="https://st.depositphotos.com/1217087/1591/v/950/depositphotos_15913957-stock-illustration-dog-and-leash.jpg" alt="logo" width={52} />
         </a>
         <ul id="nav-mobile" className="left hide-on-med-and-down">
           <li><a href="">PERRO</a></li>
@@ -17,7 +17,6 @@ const NavBar = () => {
         </ul>
         <div className="right cart-widget-container">
           <CartWidget />
-          
         </div>
       </div>
     </nav>

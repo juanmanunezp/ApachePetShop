@@ -8,6 +8,8 @@
     margin-top: 17px;
     vertical-align: middle;
     margin-left: 10px;
+    max-width: 100%;
+    height: auto;
 }
 
 ul#nav-mobile {
