@@ -8,7 +8,7 @@ const NavBar = () => {
     <nav className="nav-wrapper white">
       <div className="container">
         <a href="/" className="brand-logo center">
-          <img src="../src/assets/logo.jpg" alt="logo" width={62} />
+          <img src="../src/assets/logo.png" alt="logo" width={62} />
         </a>
         <ul id="nav-mobile" className="left hide-on-med-and-down">
           <li><a href="">PERRO</a></li>
