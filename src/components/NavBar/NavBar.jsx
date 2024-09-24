@@ -17,7 +17,7 @@ const NavBar = () => {
         </ul>
         <div className="right cart-widget-container">
           <CartWidget />
-          <p className="item" >1</p>
+          
         </div>
       </div>
     </nav>

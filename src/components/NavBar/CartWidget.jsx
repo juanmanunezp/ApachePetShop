@@ -4,6 +4,7 @@ const CartWidget = () => {
   return (
     <>
     <FaShoppingCart/>
+    <p className="item" >1</p>
     </>
   )
 }
