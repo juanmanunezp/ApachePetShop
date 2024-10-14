@@ -1,5 +1,6 @@
 import NavBar from './components/NavBar/NavBar'
 import ItemListContainer from './components/ItemListContainer/ItemListContainer'
+import { BrowserRouter, Routes, Route } from "react-router-dom"
 import './App.css'
 
 
@@ -7,8 +8,14 @@ function App() {
 
   return (
     <div>
-      <NavBar/>
-      <ItemListContainer greeting={"¡BIENVENIDO A APACHE PETSHOP!"} />
+      <BrowserRouter>
+        <NavBar/>
+
+        <Routes>
+          <Route path="/" element={<ItemListContainer greeting={"¡BIENVENIDO A APACHE PETSHOP!"} />} />
+          <Route path="/category/:idCategory" element={<ItemListContainer greeting={"¡BIENVENIDO A APACHE PETSHOP!"} />}/>
+        </Routes>
+      </BrowserRouter>
     </div>
   )
 }
