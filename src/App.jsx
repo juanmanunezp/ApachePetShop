@@ -14,7 +14,7 @@ function App() {
 
         <Routes>
           <Route path="/" element={<ItemListContainer greeting={"¡BIENVENIDO A APACHE PETSHOP!"} />} />
-          <Route path="/category/:idCategory" element={<ItemListContainer greeting={"¡BIENVENIDO A APACHE PETSHOP!"} />}/>
+          <Route path="/category/:idCategory" element={<ItemListContainer greeting={"APACHE PETSHOP"} />}/>
           <Route path="/item/:idProduct" element={<ItemDetailContainer />} />
         </Routes>
       </BrowserRouter>

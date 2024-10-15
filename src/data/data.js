@@ -5,7 +5,8 @@ const products = [
         description: "Collar resistente, ajustable, con cierre de seguridad.",
         price: 15.99,
         img: "/img/collarPerro.jpg",
-        category: "perro"
+        category: "perro",
+        stock: 19
     },
     {
         id: "PE91",
@@ -13,7 +14,8 @@ const products = [
         description: "Juguete duradero para perros, ideal para morder y jugar al aire libre.",
         price: 9.99,
         img: "/img/juguetePerro.jpg",
-        category: "perro"
+        category: "perro",
+        stock: 7
     },
     {
         id: "NA5",
@@ -21,7 +23,8 @@ const products = [
         description: "Suéter cómodo y calentito para gatos, ideal para días fríos.",
         price: 12.50,
         img: "/img/ropaGato.jpg",
-        category: "gato"
+        category: "gato",
+        stock: 4
     },
     {
         id: "R53",
@@ -29,7 +32,8 @@ const products = [
         description: "Juguete suave con forma de ratón, ideal para el entretenimiento de gatos.",
         price: 6.99,
         img: "/img/jugueteGato.jpg",
-        category: "gato"
+        category: "gato",
+        stock: 33
     },
     {
         id: "O20",
@@ -37,7 +41,8 @@ const products = [
         description: "Alimento balanceado para perros adultos, sabor pollo y arroz.",
         price: 45.00,
         img: "/img/racionPerro.jpg",
-        category: "raciones"
+        category: "raciones",
+        stock: 21
     },
     {
         id: "L24",
@@ -45,7 +50,8 @@ const products = [
         description: "Alimento seco para gatos, alto en proteínas y con omega 3.",
         price: 38.00,
         img: "/img/racionGato.jpg",
-        category: "raciones"
+        category: "raciones",
+        stock: 14
     }
 ];
 
