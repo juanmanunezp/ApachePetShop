@@ -1,15 +1,79 @@
+/* ITEMLISTCONTAINER */
+
 .item-list-container {
-    height: 80vh;
-    display: flex;
-    justify-content: center; 
-    align-items: center;
-    text-align: center;
-    background-color: #94949446;
-    padding: 20px;
-    border-radius: 8px;
-  }
-  
-  h1 {
-    font-size: 3rem; 
-    color: #008866;
-  }
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #94949446;
+  border-radius: 8px;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #008866;
+  display: flex;
+  justify-content: center;
+}
+
+/* ITEMLIST */
+
+.ItemList {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+/* ITEM */
+
+.Item {
+  background-color:#00886631;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.568);
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+
+.Item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.img-item {
+  width: 100px;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.title-item{
+  font-size: 20px;
+  font-weight: bold;
+  color: #000000ea;
+  margin-bottom: 10px;
+}
+
+.price-item{
+  font-size: 18px;
+  font-weight: 500;
+  color: #000000ea;
+  margin-bottom: 15px;
+}
+
+.button {
+  padding: 12px 20px;
+  background-color: #ffffff91;
+  color: #008866;
+  border: 1px solid #00000091;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button:hover {
+  background-color: #00886627;
+  transform: scale(1.05);
+}
