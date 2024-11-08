@@ -1,9 +1,8 @@
-
 import { useContext } from "react";
 import { CartContext } from "../../context/CartContext";
 import { Link } from "react-router-dom";
 import { toast } from "react-toastify";
-import "./cart.css";
+import "./Cart.css";
 
 const Cart = () => {
     const { cart, totalPrice, deleteProductInCart, deleteCart } = useContext(CartContext);
