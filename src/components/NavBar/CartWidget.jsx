@@ -1,11 +1,17 @@
-import { FaShoppingCart } from "react-icons/fa"
+import { Link } from "react-router-dom";
+import { PiShoppingCartBold } from "react-icons/pi";
+import { useContext } from "react"
+import { CartContext } from "../../context/CartContext";
 
 const CartWidget = () => {
+  const { totalQuantity } = useContext(CartContext)
+  const total = totalQuantity()
+
   return (
-    <>
-    <FaShoppingCart/>
-    <p className="item" >1</p>
-    </>
+    <Link to="/cart" className="cartwidget">
+      <PiShoppingCartBold className={total > 0 ? "icon-cartwidget" : "empty-cartwidget"} />
+      <p className="number-cartwidget">{total >= 1 && total}</p>
+    </Link>
   )
 }
 

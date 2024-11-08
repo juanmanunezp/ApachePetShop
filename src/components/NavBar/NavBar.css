@@ -1,46 +1,77 @@
-.nav-wrapper{
+.nav-wrapper {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    overflow: hidden;
+}
+
+.container {
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
 }
 
-.brand-logo img{
-    margin-top: 17px;
-    vertical-align: middle;
-    margin-left: 10px;
-    max-width: 100%;
-    height: auto;
+.brand-logo img {
+    height: 48px;
 }
 
-ul#nav-mobile {
-    list-style: none;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     display: flex;
-    gap: 30px;
 }
 
-ul#nav-mobile li a {
-    font-weight: 700;
-    text-transform: uppercase;
-    padding: 0 15px;
-    margin-top: 17px;
-    color: #3b3a3a;
-    font-size: 20px;
+.category {
+    margin: 0 15px;
+}
+
+.category a {
     text-decoration: none;
-    transition: color 0.3s ease;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s;
 }
 
-ul#nav-mobile li a:hover {
-    color: #008866;
+.category a:hover {
+    color: #007bff;
 }
 
 .cart-widget-container {
-    color: black;
     display: flex;
     align-items: center;
+    gap: 8px;
 }
 
-.item{
-    margin-left: 8px;
-    font-size: 1.1rem;
+.cartwidget {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+}
+
+.icon-cartwidget {
+    font-size: 24px;
     color: #000000;
+}
+
+.empty-cartwidget {
+    font-size: 24px;
+    color: #000000;
+}
+
+.number-cartwidget {
+    min-width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1100ff4d;
+    color: #fff;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 0.9em;
 }

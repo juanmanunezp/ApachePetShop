@@ -1,0 +1,147 @@
+.cart {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title-cart {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.item-cart {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.img-item-cart {
+    width: 60px;
+    height: 60px;
+    border-radius: 6px;
+    margin-right: 15px;
+    object-fit: cover;
+}
+
+.info-item-cart {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.text-item-cart {
+    font-size: 1em;
+    color: #555;
+    margin: 0;
+}
+
+.text-item-cart.name {
+    font-weight: bold;
+    color: #333;
+}
+
+.text-item-cart.price,
+.text-item-cart.quantity,
+.text-item-cart.subtotal {
+    display: flex;
+    justify-content: space-between;
+}
+
+.delete-item-cart {
+    background-color: transparent;
+    border: none;
+    color: #ff5252;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.delete-item-cart:hover {
+    color: #ff1744;
+}
+
+.info-cart {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.text-info-cart {
+    font-size: 1.2em;
+    color: #333;
+    font-weight: bold;
+}
+
+.button-to-cart,
+.button-delete-cart {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1em;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.button-to-cart {
+    background-color: #007bff;
+    display: flex;
+    justify-content: center;
+}
+
+.button-to-cart:hover {
+    background-color: #0056b3;
+}
+
+.button-delete-cart {
+    background-color: #ff5252;
+}
+
+.button-delete-cart:hover {
+    background-color: #ff1744;
+}
+
+.empty-cart {
+    text-align: center;
+    color: #888;
+    font-size: 1.2em;
+    margin-top: 30px;
+}
+
+.button-home-empty-cart {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+}
+
+.button-home-empty-cart:hover {
+    background-color: #0056b3;
+}
+
+.disabled {
+    pointer-events: none;
+    opacity: 0.6;
+    cursor: not-allowed;
+}

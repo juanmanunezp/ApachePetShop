@@ -9,7 +9,7 @@ const NavBar = () => {
       <div className="container">
 
         <Link to="/" className="brand-logo center">
-          <img src="https://st.depositphotos.com/1217087/1591/v/950/depositphotos_15913957-stock-illustration-dog-and-leash.jpg" alt="logo" width={52} />
+          <img src="https://st.depositphotos.com/1217087/1591/v/950/depositphotos_15913957-stock-illustration-dog-and-leash.jpg" alt="logo de inicio de Apache petshop" width={52} />
         </Link>
 
         <ul id="nav-mobile" className="left hide-on-med-and-down">
